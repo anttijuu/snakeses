@@ -14,6 +14,8 @@
 #else
 #include <ncurses.h>
 #endif
+#include <string.h>
+#include <unistd.h>
 
 #define CHAR_ARENA ' '
 #define CHAR_SNAKE '<'
